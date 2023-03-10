@@ -1,31 +1,46 @@
-# Astro Starter Kit: Portfolio
+### Hello 👋😄
 
+<div align="center">
+	<img src="https://raw.githubusercontent.com/Aniket965/Aniket965/master/pacman.svg?sanitize=true" width="150" height="150">
+	<br>
+</div>
+
+```ts
+export class Info {
+
+  name: string = 'Gabriel Perez'
+  age: number = 21
+  nationality: string = 'Hondureño'
+  languages: Record<string, string>[] = [{ 'Spanish': 'Native' }, { 'English': '50%' }]
+  occupation: string = 'Web and mobile Developer, Designer, Student'
+  freetime: string[] = ['Video Edition', 'Reading', 'Photography']
+
+}
+
+export class Programming {
+
+  languages: string[] = ['TypeScript', 'JavaScript', 'PHP', 'Python', 'Dart']
+  stylesheets: string[] = ['CSS', 'SASS', 'SCSS']
+  frameworks/SDK/Tools: string[] = ['Flutter', 'Next.js', 'React', 'Redux', 'Astro']
+  runtimes: string[] = ['Node', 'Dino']
+  databases: string[] = ['MySQL', 'SQLite', 'Firebase']
+
+}
+
+export class Social {
+
+  website: string = 'https://gabo-p.github.io/'
+  github: string = 'Gabo-p'
+  instagram: string = '@gabo_v_0'
+  discord: string = 'Gabo#6362'
+  email: string = 'bayrongp2001@gmail.com'
+  
+}
 ```
-npm create astro@latest -- --template portfolio
-```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/portfolio/devcontainer.json)
+[![Gabo github stats](https://github-readme-stats.vercel.app/api?username=Gabo-p&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF&bg_color=0D1117)](https://github.com/anuraghazra/github-readme-stats)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![portfolio](https://user-images.githubusercontent.com/357379/210779178-a98f0fb7-6b1a-4068-894c-8e1403e26654.jpg)
-
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+<div align="center">
+	  <img src="https://i.giphy.com/RThN0hOS2GO4M.gif" />
+	<br>
+</div>

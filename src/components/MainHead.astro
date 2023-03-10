@@ -7,8 +7,8 @@ interface Props {
 }
 
 const {
-	title = 'Jeanine White: Personal Site',
-	description = 'The personal site of Jeanine White',
+	title = 'Gabriel Perez',
+	description = 'Portafolio y contacto para trabajo',
 } = Astro.props;
 ---
 
@@ -29,6 +29,7 @@ const {
 <script is:inline>
 	// This code is inlined in the head to make dark mode instant & blocking.
 	const getThemePreference = () => {
+		return 'dark';
 		if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
 			return localStorage.getItem('theme');
 		}
