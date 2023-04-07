@@ -83,19 +83,25 @@ import Skills from '../components/Skills.astro';
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Certifications</h3>
 					<p>
-						These are some of the certifications and diplomas that I have obtained throughout my development.
+						These are some of the certifications that I have obtained throughout my development.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							[['Docker Essentials','IBM','ibm.jpeg','https://www.credly.com/badges/15375ade-88d8-4d12-ba79-62b30717a369/linked_in_profile'], ['Whatsapp Bussiness Platform for Developers','Meta','meta.jpg','https://www.coursera.org/account/accomplishments/certificate/RX3GUH2EVRSH'], ['Cloud Computing','Google','google.jpeg',''], ['Mobile application development','Google','google.jpeg','']].map((brand) => (
+							[['Docker Essentials','IBM','ibm.jpeg','https://www.credly.com/badges/15375ade-88d8-4d12-ba79-62b30717a369/linked_in_profile'],
+							['Whatsapp Bussiness Platform for Developers','Meta','meta.jpg','https://www.coursera.org/account/accomplishments/certificate/RX3GUH2EVRSH'],
+							['Cloud Computing','Google','google.jpeg','https://learndigital.withgoogle.com/activate/validate-certificate-code','BHH SSB YQ4'],
+							['Mobile application development','Google','google.jpeg','https://learndigital.withgoogle.com/activate/validate-certificate-code','6YZ 6D7 WLM']].map((brand) => (
 								<a href={brand[3]} target="_blank" style="text-decoration: none;"><li class="mention-card">
 									<p>{brand[0]}</p>
 									<p style="margin-top: 5px;">
 										<img src={"./assets/certificaciones/"+brand[2]} alt="" width="20" style="border-radius:5px;"/>
 										{brand[1]}
+									</p>
+									<p style="font-size: 13px;">
+										{brand[1] == 'Google' ? 'Credential ID: '+brand[4] : ''}
 									</p>
 								</li></a>
 							))
