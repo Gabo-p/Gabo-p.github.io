@@ -81,20 +81,23 @@ import Skills from '../components/Skills.astro';
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Certifications</h3>
 					<p>
-						I have been fortunate enough to recieve praise for my work in several publications. Take
-						a look below to learn more.
+						These are some of the certifications and diplomas that I have obtained throughout my development.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
+							[['Docker Essentials','IBM','ibm.jpeg','https://www.credly.com/badges/15375ade-88d8-4d12-ba79-62b30717a369/linked_in_profile'], ['Whatsapp Bussiness Platform for Developers','Meta','meta.jpg','https://www.coursera.org/account/accomplishments/certificate/RX3GUH2EVRSH'], ['Cloud Computing','Google','google.jpeg',''], ['Mobile application development','Google','google.jpeg','']].map((brand) => (
+								<a href={brand[3]} target="_blank" style="text-decoration: none;"><li class="mention-card">
+									<p>{brand[0]}</p>
+									<p style="margin-top: 5px;">
+										<img src={"./assets/certificaciones/"+brand[2]} alt="" width="20" style="border-radius:5px;"/>
+										{brand[1]}
+									</p>
+								</li></a>
 							))
 						}
 					</Grid>
@@ -230,10 +233,12 @@ import Skills from '../components/Skills.astro';
 
 	.mention-card {
 		display: flex;
+		flex-direction: column;
 		height: 7rem;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
+		text-decoration: none;
 		border: 1px solid var(--gray-800);
 		border-radius: 1.5rem;
 		color: var(--gray-300);

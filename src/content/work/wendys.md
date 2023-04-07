@@ -17,7 +17,7 @@ tags:
 
 Visit the landing page of wendys honduras here: <a href="https://wendys.hn/">wendys.hn</a>, discover the new products, news and updated promotions of wendys honduras.
 
-On the menu page you will find an interactive menu with filters by categories so you can see all the products by category that Wendys Honduras offers you as well as see the description of each product, combo or promotions, and what accessories you can add to each of them. they. Discover them here: <a href="https://wendys.hn/menu">Menu Wendys</a>
+On the menu page you will find an interactive menu with filters by categories so you can see all the products by category that Wendys Honduras offers you as well as see the description of each product, combo or promotions, and what you can add to each of them. they. Discover them here: <a href="https://wendys.hn/menu">Menu Wendys</a>
 
 #### Purpose of development
 
