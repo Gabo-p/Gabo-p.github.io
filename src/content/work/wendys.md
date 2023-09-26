@@ -7,8 +7,9 @@ description: |
   Landing page and product menu for Wendys Honduras.
 tags:
   - HTML
-  - PHP
+  - CSS
   - JS
+  - PHP
 ---
 
 ## Wendys
